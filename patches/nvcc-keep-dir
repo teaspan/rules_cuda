@@ -5,9 +5,9 @@ Date:   2026-09-01 21:11:05 +0000
 
 Key nvcc's --keep directory off the output object
 
-The wrapper passes --keep, which writes intermediates named from the source
+The wrapper passes --keep, which writes intermediates named after the source
 stem into the working directory. Under Bazel that is the one execroot every
-action shares, so the PIC and non-PIC compiles of a source collide and ptxas
-parses a .ptx the other nvcc is still writing. It presents as a parsing error
-with the arch and line varying run to run, so it reads like anything but a
-race. Each added -gencode widens the window.
+action shares, so the PIC and non-PIC compiles of a source write the same
+files, and ptxas reads a .ptx the other nvcc is still writing. The failure is
+a ptxas parsing error at a different arch and line each run. Each added
+-gencode makes it more likely.
