@@ -1,8 +1,8 @@
 Bottom: a304a3ef0767d9e8d88b07491acdffa63fbb03bb
 Top:    6ba46440d0ab74a8202c6a79c0834cd872dbecfe
 Author: Teaspan <314463419+teaspan@users.noreply.github.com>
-Date:   2026-09-01 21:32:00 +0000
+Date:   2026-09-01 21:58:00 +0000
 
 Accept three-digit compute capabilities
 
-12.0 is consumer Blackwell.
+12.0 / sm_120 is consumer Blackwell.
