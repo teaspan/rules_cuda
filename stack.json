@@ -1,24 +1,20 @@
 {
   "version": 5,
-  "prev": "1d94bcd63a145f750aa931ea03d2c23837c4612b",
-  "head": "d518569209f1b227ec8f3f93db03a8ad7fce5fd6",
+  "prev": "17bbb8b64ae6ed4bf06ed94df8d89783b75579a5",
+  "head": "223d871ebb931d9b80eb0388d6f91b7f4ccaf0e5",
   "applied": [
     "three-digit-capabilities",
     "nvcc-keep-dir",
-    "dti-dev-sentinel",
-    "refresh-temp"
+    "dti-dev-sentinel"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "dti-dev-sentinel": {
-      "oid": "0b993dad09d91897b3ae169651ef4a33641b3612"
+      "oid": "223d871ebb931d9b80eb0388d6f91b7f4ccaf0e5"
     },
     "nvcc-keep-dir": {
       "oid": "26b2280c4a8da7c9f133bc295ddd552142740af7"
-    },
-    "refresh-temp": {
-      "oid": "d518569209f1b227ec8f3f93db03a8ad7fce5fd6"
     },
     "three-digit-capabilities": {
       "oid": "128fe8bc57d0381fafe95d361eaf89ea917d5271"
