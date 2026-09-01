@@ -3,8 +3,8 @@ Top:    aaebf099b509577e72373c855639a8f81d1e752d
 Author: Teaspan <314463419+teaspan@users.noreply.github.com>
 Date:   2026-09-01 21:58:00 +0000
 
-Key nvcc's --keep directory off the output object
+Set nvcc's --keep directory by the output object
 
---keep writes intermediates named from the source stem into the cwd, which
-under Bazel is shared by every action. The PIC and non-PIC compiles of one
-source collide, and ptxas reads a half-written .ptx.
+The --keep flag writes intermediates named from the source stem into the cwd,
+which under Bazel is shared by every action. The PIC and non-PIC compiles
+collide, and ptxas reads a half-written .ptx, boom, broken build.
