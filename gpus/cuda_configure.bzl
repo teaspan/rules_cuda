@@ -1411,3 +1411,5 @@ cuda_configure(name = "local_config_cuda")
 Args:
   name: A unique name for this workspace rule.
 """
+
+print("dti-dev-sentinel: rules_cuda")
