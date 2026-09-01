@@ -1,11 +1,12 @@
 {
   "version": 5,
-  "prev": "01de5c15f725f8a62ab9e070a8e43d6038342c67",
-  "head": "0b993dad09d91897b3ae169651ef4a33641b3612",
+  "prev": "1d94bcd63a145f750aa931ea03d2c23837c4612b",
+  "head": "d518569209f1b227ec8f3f93db03a8ad7fce5fd6",
   "applied": [
     "three-digit-capabilities",
     "nvcc-keep-dir",
-    "dti-dev-sentinel"
+    "dti-dev-sentinel",
+    "refresh-temp"
   ],
   "unapplied": [],
   "hidden": [],
@@ -15,6 +16,9 @@
     },
     "nvcc-keep-dir": {
       "oid": "26b2280c4a8da7c9f133bc295ddd552142740af7"
+    },
+    "refresh-temp": {
+      "oid": "d518569209f1b227ec8f3f93db03a8ad7fce5fd6"
     },
     "three-digit-capabilities": {
       "oid": "128fe8bc57d0381fafe95d361eaf89ea917d5271"
