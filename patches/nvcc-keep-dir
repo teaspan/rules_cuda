@@ -1,9 +1,9 @@
 Bottom: 6ba46440d0ab74a8202c6a79c0834cd872dbecfe
 Top:    aaebf099b509577e72373c855639a8f81d1e752d
 Author: Teaspan <314463419+teaspan@users.noreply.github.com>
-Date:   2026-09-01 21:58:00 +0000
+Date:   2026-09-07 03:05:33 +0000
 
-Set nvcc's --keep directory by the output object
+Fix highly parallel builds, set nvcc's --keep directory by the output object
 
 The --keep flag writes intermediates named from the source stem into the cwd,
 which under Bazel is shared by every action. The PIC and non-PIC compiles
