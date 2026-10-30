@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "4d12a8fc88f8692020d339c4404bd6ebf95b659c",
-  "head": "a6e595990378e8aecee2b1cbff34f073ae984e42",
+  "prev": "6d31fd8f42dc240c9f63e4da866467ecfb79d2cf",
+  "head": "a35023710e189e95ff5e5a5bdac2324bf43797d7",
   "applied": [
     "three-digit-capabilities",
     "nvcc-keep-dir"
@@ -10,10 +10,10 @@
   "hidden": [],
   "patches": {
     "nvcc-keep-dir": {
-      "oid": "a6e595990378e8aecee2b1cbff34f073ae984e42"
+      "oid": "a35023710e189e95ff5e5a5bdac2324bf43797d7"
     },
     "three-digit-capabilities": {
-      "oid": "d31eae8651ef72c8e552a0117ffbbd676cbd48e1"
+      "oid": "f6a9658a3a030f346821ef756e29e1923ed7e3b3"
     }
   }
 }
